@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding:0;
+}
+/* body{
+    background-image: url("https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=400");
+    height: 100vh;
+    width: 100wh;
+} */
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+width: 33%;
+border-radius: ;
+}
+.navbar{
+    display: flex;
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+list-style: none;
+padding: 20px 30px;
+}
+.nav-list li a:hover{
+color: grey;
+}
+.rightNav{
+    width: 50%;
+    text-align: right;
+}
+#Search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+background: rgba(0, 0, 0, 7)url('../img/bg.jpg');
+background-size: cover;
+/* background-blend-mode: darken; */
+}
